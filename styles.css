@@ -39,7 +39,6 @@ body {
 .input {
     width: 70%;
     margin: auto;
-    
 }
 
 .input #submit {
@@ -77,6 +76,11 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+
+.infos input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 #submit {
